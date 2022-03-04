@@ -1,0 +1,19 @@
+{
+  "name": "nazwapl-ssl",
+  "version": "1.0.0",
+  "description": "Update SSL certificate for admin.nazwa.pl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "axios-cookiejar-support": "^2.0.4",
+    "cheerio": "^1.0.0-rc.10",
+    "tough-cookie": "^4.0.0"
+  }
+}
