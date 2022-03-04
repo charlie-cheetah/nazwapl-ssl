@@ -10,7 +10,7 @@ const client = wrapper(axios.create({jar}));
 const username = 'server111111';
 const password = 'pass';
 const domain = 'example.com';
-const cert_path = `.acme.sh/${domain}/`
+const cert_path = `../.acme.sh/${domain}/`
 
 const cert = fs.readFileSync(cert_path + domain + '.cer','utf8');
 const key = fs.readFileSync(cert_path + domain + '.key','utf8');
