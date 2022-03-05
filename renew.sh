@@ -1,2 +1,2 @@
 ~/.acme.sh/acme.sh --issue -d example.com -w /home/server11111/ftp/wordpress/wpn_page
-node index.js
+node nazwapl-ssl/index.js
